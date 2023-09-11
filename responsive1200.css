@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1400px){
+    .port-img-one{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .port-img-two{
+        position: absolute;
+        top: 0px;
+        left: 373px;
+    }
+    .port-img-three{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .port-img-four {
+        position: absolute;
+        top: 373px;
+        left: 0;
+    }
+    .port-img-five{
+        position: absolute;
+        top: 257px;
+        left: 373px;
+    }
+    .port-img-six {
+        position: absolute;
+        top: 220px;
+        right: 0;
+    }
+    .port-img-seven{
+        position: absolute;
+        top: 625px;
+        right: 0;
+    }
+    .port-img-eight{
+        position: absolute;
+        top: 763px;
+        right: 0;
+    }
+    .port-img-nine {
+        position: absolute;
+        top: 800px;
+        right: 373px;
+    }
+    .counts{
+        position: relative;
+        margin-top: 1200px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .port-img-one{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .port-img-two{
+        position: absolute;
+        top: 0px;
+        left: 313px;
+    }
+    .port-img-three{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .port-img-four {
+        position: absolute;
+        top: 315px;
+        left: 0;
+    }
+    .port-img-five{
+        position: absolute;
+        top: 217px;
+        left: 313px;
+    }
+    .port-img-six {
+        position: absolute;
+        top: 185px;
+        right: 0;
+    }
+    .port-img-seven{
+        position: absolute;
+        top: 530px;
+        right: 0;
+    }
+    .port-img-eight{
+        position: absolute;
+        top: 640px;
+        right: 0;
+    }
+    .port-img-nine {
+        position: absolute;
+        top: 670px;
+        right: 313px;
+    }
+    .counts{
+        position: relative;
+        margin-top: 1000px;
+    }
+}
+

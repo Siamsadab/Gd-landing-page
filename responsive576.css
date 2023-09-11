@@ -1,0 +1,119 @@
+@media only screen and (max-width: 768px){
+    .port-img-one{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .port-img-two{
+        z-index: 3;
+        margin:0 ;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+        
+    }
+    .port-img-three{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .port-img-four {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .port-img-five{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .port-img-six {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .port-img-seven{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .port-img-eight{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .port-img-nine {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .port-img-five{
+        position:relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .port-img-two {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 30px;
+    
+    }
+    .all-img{
+          margin: 0px;
+          flex-direction: column;
+    }
+    .cc{
+      position: relative;
+    }
+    .marg{
+       padding-right: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 576px){
+    .fea .img-fluid{
+        width: 100%;
+    }
+    .fea-con{
+        width: 100%;
+    }
+    .fea{
+        padding: 0px;
+    }
+    .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 376px;
+        
+    }
+}
+@media only screen and (max-width: 400px){
+    
+    .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 426px;
+        
+    }
+}

@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylet.css">
+    <link rel="stylesheet" href="responsive1200.css">
+    <link rel="stylesheet" href="responsive768.css">
+    <link rel="stylesheet" href="responsive576.css">
+ </head>
+  <body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo-div">
+                <h1 class="logo me-auto me-lg-0"><a href="index.html">Gp<span>.</span></a></h1>
+            </div>
+            <div class="menu-div">
+                <ul class="d-flex gap-3">
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#Portfoliogit ">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="#">Dropdown </a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                  </ul>
+            </div>
+            <!-- .navbar -->
+            <div class="get-btn">
+                <a href="#about" class="get-started-btn scrollto">Get Started</a>
+            </div>
+            <div class="mob-menu">
+                
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fa-solid fa-bars"></i></button>
+
+               <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                 <div class="offcanvas-header">
+                   <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                 </div>
+                 <div class="offcanvas-body">
+                  <ul class="d-flex flex-column gap-0">
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li><a class="nav-link scrollto" href="#">Dropdown </a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                  </ul>
+                 </div>
+               </div>
+            </div>
+        </div>
+      </header>
+      <!-- her section start  -->
+      <main id="main">
+        <section id="hero" class="d-flex align-items-center justify-content-center">
+            <div class="container aos-init aos-animate" data-aos="fade-up">
+        
+              <div class="row justify-content-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="150">
+                <div class="col-xl-6 col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+                  <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
+                  <h2>We are team of talented digital marketers</h2>
+                </div>
+              </div>
+        
+              <div class="row gy-4 mt-5 justify-content-center "data-aos="zoom-in-up" data-aos-duration="1200">
+                <div class="col-xl-2 col-md-4">
+                  <div class="icon-box">
+                    < <i class="bi bi-shop-window"></i>
+                    <h3><a href="">Lorem Ipsum</a></h3>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-4">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <h3><a href="">Dolor Sitema</a></h3>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-4">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-calendar-xmark"></i>
+                    <h3><a href="">Sedare Perspiciatis</a></h3>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-4">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-paint-roller"></i>
+                    <h3><a href="">Magni Dolores</a></h3>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-md-4">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-database"></i>
+                    <h3><a href="">Nemos Enimade</a></h3>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </section>
+          <!-- aboout section start here -->
+          <section id="about" class="about">
+            <div class="container data-aos="fade-up-right">
+      
+              <div class="row ">
+                <div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="fade-left" data-aos="fade-up-right" data-aos-duration="3000">
+                  <img src="./assts/about.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content aos-init aos-animate" data-aos="fade-right" data-aos-delay="100" data-aos-duration="3000">
+                  <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="fa-solid fa-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                  </p>
+                </div>
+              </div>
+      
+            </div>
+          </section>
+          <!-- ======= Clients Section ======= -->
+          
+          <!-- image  slide section start -->
+    
+      <section id="slider-sec" class="">
+        <div class="wrapper container">
+          <div class="slider">
+            <div class="slide">
+              <img src="assts/clients/client-1.png" />
+              <img src="assts/clients/client-2.png" />
+              <img src="assts/clients/client-3.png" />
+              <img src="assts/clients/client-4.png" />
+              <img src="assts/clients/client-5.png" />
+              <img src="assts/clients/client-6.png" />
+              <img src="assts/clients/client-7.png" />
+              <img src="assts/clients/client-8.png" />
+            </div>
+            <div class="slide">
+              <img src="assts/clients/client-1.png" />
+              <img src="assts/clients/client-2.png" />
+              <img src="assts/clients/client-3.png" />
+              <img src="assts/clients/client-4.png" />
+              <img src="assts/clients/client-5.png" />
+              <img src="assts/clients/client-6.png" />
+              <img src="assts/clients/client-7.png" />
+              <img src="assts/clients/client-8.png" />
+            </div>
+          </div>
+      </div>
+      </section>
+      <!-- feature section startt  -->
+      <section id="features" class="features">
+        <div class="fea-con container aos-init aos-animate" data-aos="fade-up">
+  
+          <div class="row align-items-center">
+            <div class="fea image col-lg-6 aos-init aos-animate"  data-aos="fade-right">
+              <img src="assts/features.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="100">
+              <div class="icon-box mt-5 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
+                <i class="fa-solid fa-file-invoice"></i>
+                <h4>Est labore ad</h4>
+                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              </div>
+              <div class="icon-box mt-5 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
+                <i class="fa-solid fa-cube"></i>
+                <h4>Harum esse qui</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              </div>
+              <div class="icon-box mt-5 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
+                <i class="fa-solid fa-images"></i>
+                <h4>Aut occaecati</h4>
+                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              </div>
+              <div class="icon-box mt-5 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h4>Beatae veritatis</h4>
+                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+      <!-- CHECK OUR SERVICES section start  -->
+      <section id="services" class="services">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Services</h2>
+            <p>Check our Services</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="icon"><i class="fa-solid fa-basketball"></i></div>
+                <h4><a href="">Lorem Ipsum</a></h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon-box">
+                <div class="icon"><i class="fa-regular fa-file-lines"></i></div>
+                <h4><a href="">Sed ut perspiciatis</a></h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon-box">
+                <div class="icon"><i class="fa-solid fa-gauge-high"></i></div>
+                <h4><a href="">Magni Dolores</a></h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <div class="icon"><i class="fa-solid fa-earth-americas"></i></div>
+                <h4><a href="">Nemo Enim</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon-box">
+                <div class="icon"><i class="fa-brands fa-slideshare"></i></div>
+                <h4><a href="">Dele cardo</a></h4>
+                <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon-box">
+                <div class="icon"><i class="fa-solid fa-archway"></i></div>
+                <h4><a href="">Divera don</a></h4>
+                <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container aos-init aos-animate" data-aos="zoom-in">
+  
+          <div class="text-center">
+            <h3>Call To Action</h3>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a class="cta-btn" href="#">Call To Action</a>
+          </div>
+  
+        </div>
+      </section>
+      <!-- portfolio section start  -->
+      <!-- Portfoilo section start -->
+    
+      <section style="padding-top: 60px;" id="Portfolio">
+        <div class="p-bt container section-title aos-init aos-animate fea feas text-center" data-aos="fade-up">
+          <div class="section-title">
+            <h2 class="text-start">Portfolio</h2>
+            <p class="text-start">Check our Portfolio</p>
+          </div>
+        </div>
+        <div class="container fea feas">
+          <div class="row">
+            <div class="col-12 marg">
+              <div class="butns">
+                <ul class="nav justify-content-center nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#all" data-bs-toggle="tab">All</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#app" data-bs-toggle="tab">App</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#card" data-bs-toggle="tab">card</a>
+                  </li>
+                  
+                </ul>
+                <div class="tab-content">
+                  <div id="all" class="active tab-pane fade in show">
+                     <div class="all-img row ">
+                         <div class="port-img-one col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-1.jpg">
+                         </div>
+                         <div class="port-img-two col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-2.jpg">
+                         </div>
+                         <div class="port-img-three col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-3.jpg">
+                         </div>
+                         <div class="port-img-four col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-4.jpg">
+                         </div>
+                         <div class="port-img-five col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-5.jpg">
+                         </div>
+                         <div class="port-img-six col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-6.jpg">
+                         </div>
+                         <div class="port-img-seven col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-7.jpg">
+                         </div>
+                         <div class="port-img-eight col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-8.jpg">
+                         </div>
+                         <div class="port-img-nine col-12 col-md-6 col-lg-4 cc"> 
+                          <img class="img-fluid" src="./assts/portfolio/portfolio-9.jpg">
+                         </div>
+                        
+
+                     </div>
+                  </div>
+                  <div id="app" class="tab-pane fade ">
+                    <h1> products two</h1>
+                 </div>
+                 <div id="card" class="tab-pane fade ">
+                  <h1> products 3</h1>
+               </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+  
+          <div class="row no-gutters">
+            <div class="image img-cen col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start aos-init aos-animate" data-aos="fade-right" data-aos-delay="100">
+              <img class="img-s img-fluid" src="assts/counts-img.jpg">
+            </div>
+            <div class="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-left" data-aos-delay="100">
+              <div class="content d-flex flex-column justify-content-center">
+                <h3>Voluptatem dignissimos provident quasi</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                </p>
+                <div class="row">
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <i class="bi bi-emoji-smile"></i>
+                      <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="0" class="purecounter">65</span>
+                      <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <i class="bi bi-journal-richtext"></i>
+                      <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="0" class="purecounter">85</span>
+                      <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <i class="bi bi-clock"></i>
+                      <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="0" class="purecounter">35</span>
+                      <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-6 d-md-flex align-items-md-stretch">
+                    <div class="count-box">
+                      <i class="bi bi-award"></i>
+                      <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="0" class="purecounter">20</span>
+                      <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End .content-->
+            </div>
+          </div>
+  
+        </div>
+      </section>
+      <!-- testimonial sectio start  -->
+      <section id="testimonials" class="testimonials">
+        <div class="container aos-init aos-animate" data-aos="zoom-in">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assts/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assts/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assts/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assts/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assts/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="fa-solid fa-quote-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+           
+            <div class="swiper-pagination"></div>
+          </div>
+          
+        </div>
+      </section>
+      <!-- team section start  -->
+      <section id="team" class="team">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Team</h2>
+            <p>Check our Team</p>
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                  <img src="assts/team/team-1.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <div class="member-img">
+                  <img src="assts/team/team-2.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="member-img">
+                  <img src="assts/team/team-3.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                <div class="member-img">
+                  <img src="assts/team/team-4.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+      <!-- contact section start  -->
+      <section id="contact" class="contact">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
+          </div>
+  
+          <div>
+            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+  
+          <div class="row mt-5">
+  
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+  
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-8 mt-5 mt-lg-0">
+  
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+                </div>
+                <div class="my-3">
+                  
+                  <div class="error-message"></div>
+                  
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+      </main>
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-info">
+                  <h3>Gp<span>.</span></h3>
+                  <p>
+                    A108 Adam Street <br>
+                    NY 535022, USA<br><br>
+                    <strong>Phone:</strong> +1 5589 55488 55<br>
+                    <strong>Email:</strong> info@example.com<br>
+                  </p>
+                  <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="fa-brands fa-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4 class="h-four">Useful Links</h4>
+                <ul>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Home</a></li>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">About us</a></li>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Services</a></li>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Terms of service</a></li>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Web Design</a></li>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Web Development</a></li>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Product Management</a></li>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Marketing</a></li>
+                  <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+    
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="copyright">
+            © Copyright <strong><span>Gp</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer  -->
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

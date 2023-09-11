@@ -1,0 +1,148 @@
+@media only screen and (max-width: 992px) {
+    .mob-menu{
+        display: block;
+    }
+    .menu-div{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #hero h2 {
+        color: rgba(255, 255, 255, 0.9);
+        margin: 10px 0 0 0;
+        font-size: 24px;
+    }
+
+    .port-img-one{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .port-img-two{
+        position: absolute;
+        top: 0;
+        left: 348px;
+    }
+    .port-img-three{
+        position: absolute;
+        right:  0;
+        top: 240px;
+    }
+    .port-img-four {
+        position: absolute;
+        top: 865px;
+         left: 0;
+    }
+    .port-img-five{
+        position: absolute;
+        top: 447px;
+        left:348px;
+    }
+    .port-img-six {
+        position: absolute;
+        top: 355px;
+        left: 0;
+    }
+    .port-img-seven{
+        position: absolute;
+        top: 1105px;
+        left: 0;
+    }
+    .port-img-eight{
+        position: absolute;
+        top: 960px;
+        left: 348px;
+    }
+    .port-img-nine {
+        position: absolute;
+        top: 1200px;
+        right: 0;
+    }
+    .all-img {
+        margin: 0px;
+    }
+    .justify-content-lg-start {
+        justify-content: center!important;
+    }
+    .justify-content-lg-start {
+        justify-content: center!important;
+    }
+    .counts{
+        position: relative;
+        margin-top: 1532px;
+        
+    }
+  }
+  .img-cen{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .img-s{
+    min-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    height: 350px;
+    object-fit: cover;
+}
+.counts .content {
+    padding: 30px 0;
+}
+  /* <!-- aboout section start here --> */
+  #about{
+    padding: 60px 0px;
+  }
+  .about .content h3 {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+}
+.fst-italic {
+    font-style: italic!important;
+}
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+.about .content ul i {
+   
+    font-size: 20px;
+    color: #ffc451;
+    margin-right: 5px;
+}
+.about .content ul li {
+    padding:  6px 0px;
+    position: relative;
+}
+/* <!-- ======= Clients Section ======= --> */
+@media only screen and (max-width: 992px) {
+    .counts{
+        position: relative;
+        margin-top: 10px;
+        padding: 60px 0px;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .counts{
+        position: relative;
+        margin-top: 10px;
+        padding: 60px 0px;
+        
+    }
+    .social-links {
+        margin-top: 1rem!important;
+        margin-bottom: 40px;
+    }
+}
+
+
+
